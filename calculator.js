@@ -1,5 +1,8 @@
 function sum(a, b) {
-  return;
+  if ( a === undefined || b === undefined ) {
+    return 0;
+  }
+  return a + b;
 }
 
 function subtract(a, b) {
